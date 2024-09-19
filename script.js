@@ -1,6 +1,6 @@
 document.querySelector('.download-btn').addEventListener('click', function() {
     const link = document.createElement('a');
-    link.href = 'path/to/your-cv.pdf'; // Replace with the path to your CV file
+    link.href = 'MOAZ-cv.pdf'; // Replace with the path to your CV file
     link.download = 'MOAZ CV.pdf'; // Suggested file name
     document.body.appendChild(link);
     link.click();
