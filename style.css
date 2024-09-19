@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    HEIGHT : 850px;
+    HEIGHT : AUTO;
     max-width: 800px;
     margin: auto;
     background-color: #1c1c1c;
@@ -124,48 +124,4 @@ footer {
   text-align : center;
   
 }
-  container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
- @media (min-width: 475px) {
-   .CONTAINER{
-  MAX-WIDTH: 475PX ;
-   HEIGHT : 1100PX ;
-   } 
-   
-
   
-}
-/* sm */
-@media (min-width: 640px) {.CONTAINER{
-  MAX-WIDTH: 640PX ;}
-
-  
-   }
-/* md */
- @media (min-width: 768px) {.CONTAINER{
-  MAX-WIDTH: 768PX ;} 
-
-  
-  }
-/* lg */
- @media (min-width: 1024px) {.CONTAINER{
-  MAX-WIDTH: 1024PX ;} 
-
-  
-   }
-/* xl */
- @media (min-width: 1280px) {.CONTAINER{
-  MAX-WIDTH: 1280PX ;} 
-
-  
-   }
-/* 2xl */
- @media (min-width: 1536px) {.CONTAINER{
-  MAX-WIDTH: 1536PX ;} 
-   }
